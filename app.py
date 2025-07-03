@@ -121,5 +121,8 @@ fig = px.imshow(
 )
 fig.update_layout(coloraxis_showscale=False)
 
+st.markdown("---")
+st.markdown("<center><small>Creator: Syed Asad Maqbool</small></center>", unsafe_allow_html=True)
+
 # Show plot
 st.plotly_chart(fig, use_container_width=True)
